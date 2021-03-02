@@ -2,6 +2,6 @@
 From tomcat:8-jre8 
 
 # Maintainer 
-MAINTAINER "valaxytech@gmail.com" 
-COPY ./webapp.war /usr/local/tomcat/webapps
+MAINTAINER "yuvaraj3115@gmail.com" 
+COPY workspace/hello-world-project/webapp/target/webapp.war /usr/local/tomcat/webapps
 
